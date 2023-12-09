@@ -2,19 +2,30 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   background-color: rgb(196, 207, 207);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #container{
-  text-align: center;;
-  border: 15px solid rgb(74, 74, 97);
+  text-align: center;
   font-size: 30px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
+
+#container p{
+  font-size: 15px;
+  text-align: justify;
+  padding: 50px;
+}
+img {
+  border-radius: 25%;
+}
+
 header{
   background-color: rgb(74, 74, 97);
+  font-size: 15px;
 }
 
 header nav{
@@ -28,15 +39,16 @@ header nav ul li{
 }
 
 header nav ul li a{
-  padding: 10px 20px;
+  padding: 15px 15px;
   display: block;
   color: white;
   text-decoration: none;
+
 }
 
 header nav ul li a:hover{
   background: blueviolet;
-
+  font-size: 20px;
 }
 
 #main article{
